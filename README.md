@@ -70,7 +70,8 @@ plt.title('Captured Frame')
 plt.axis('off')
 plt.show()
 ```
-<img width="572" height="441" alt="image" src="https://github.com/user-attachments/assets/7e995bb6-39a4-4236-b542-47d7b3de7f85" />
+<img width="595" height="430" alt="image" src="https://github.com/user-attachments/assets/0e581424-f574-4923-8812-165d655b89e0" />
+
 
 
 ### ii) Display the video
@@ -90,7 +91,8 @@ for i in range(50):
 
 cap.release()
 ```
-<img width="602" height="436" alt="image" src="https://github.com/user-attachments/assets/2261b11d-70cb-4c35-8c7d-f21222f8fa95" />
+<img width="833" height="412" alt="image" src="https://github.com/user-attachments/assets/d4681ae5-7b77-4fe6-9979-ad8b50f5bd5a" />
+
 
 
 ### iii) Display the video by resizing the window
@@ -112,7 +114,7 @@ for i in range(50):
 cap.release()
 
 ```
-<img width="716" height="425" alt="image" src="https://github.com/user-attachments/assets/e78668df-5c37-40cb-b3ae-c2df3d0424f6" />
+<img width="817" height="431" alt="image" src="https://github.com/user-attachments/assets/08e82096-66d8-465b-9da0-a8d69493aadd" />
 
 
 
@@ -134,7 +136,7 @@ for i in range(50):
 
 cap.release()
 ```
-<img width="791" height="421" alt="image" src="https://github.com/user-attachments/assets/e535644a-c2f0-499c-8aef-ec30eb6aa7ef" />
+<img width="586" height="431" alt="image" src="https://github.com/user-attachments/assets/42a22867-7189-4a22-bab5-b3e376799eb8" />
 
 
 ## Result
