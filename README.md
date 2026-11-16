@@ -60,17 +60,17 @@ import time
 cap = cv2.VideoCapture(0)
 ret, frame = cap.read()
 if ret:
-    cv2.imwrite("captured_frame.jpg", frame)
+    cv2.imwrite("janathul.jpg", frame)
 cap.release()
 
-captured_image = cv2.imread('captured_frame.jpg')
+captured_image = cv2.imread('janathul.jpg')
 
 plt.imshow(captured_image[:,:,::-1])
 plt.title('Captured Frame')
 plt.axis('off')
 plt.show()
 ```
-<img width="595" height="430" alt="image" src="https://github.com/user-attachments/assets/0e581424-f574-4923-8812-165d655b89e0" />
+<img width="577" height="354" alt="image" src="https://github.com/user-attachments/assets/7c30690d-565f-4cb4-b487-5f20ebc7afb9" />
 
 
 
@@ -91,7 +91,7 @@ for i in range(50):
 
 cap.release()
 ```
-<img width="833" height="412" alt="image" src="https://github.com/user-attachments/assets/d4681ae5-7b77-4fe6-9979-ad8b50f5bd5a" />
+<img width="671" height="449" alt="image" src="https://github.com/user-attachments/assets/092e37fc-c069-41d4-b6ca-b569bd6fcb22" />
 
 
 
@@ -114,7 +114,7 @@ for i in range(50):
 cap.release()
 
 ```
-<img width="817" height="431" alt="image" src="https://github.com/user-attachments/assets/08e82096-66d8-465b-9da0-a8d69493aadd" />
+<img width="566" height="447" alt="image" src="https://github.com/user-attachments/assets/a324b45a-c383-4a64-9a1a-7d3abae085c9" />
 
 
 
@@ -136,7 +136,7 @@ for i in range(50):
 
 cap.release()
 ```
-<img width="586" height="431" alt="image" src="https://github.com/user-attachments/assets/42a22867-7189-4a22-bab5-b3e376799eb8" />
+<img width="631" height="431" alt="image" src="https://github.com/user-attachments/assets/b7821319-171d-408c-bda7-f93664057981" />
 
 
 ## Result
