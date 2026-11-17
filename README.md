@@ -60,17 +60,17 @@ import time
 cap = cv2.VideoCapture(0)
 ret, frame = cap.read()
 if ret:
-    cv2.imwrite("janathul.jpg", frame)
+    cv2.imwrite("captured_frame..jpg", frame)
 cap.release()
 
-captured_image = cv2.imread('janathul.jpg')
+captured_image = cv2.imread('captured_frame..jpg')
 
 plt.imshow(captured_image[:,:,::-1])
 plt.title('Captured Frame')
-plt.axis('off')
+plt.axis('on')
 plt.show()
 ```
-<img width="577" height="354" alt="image" src="https://github.com/user-attachments/assets/7c30690d-565f-4cb4-b487-5f20ebc7afb9" />
+<img width="593" height="426" alt="image" src="https://github.com/user-attachments/assets/b38c7518-fe51-49b1-8b29-9243cac4feeb" />
 
 
 
@@ -85,14 +85,13 @@ for i in range(50):
     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     clear_output(wait=True)
     plt.imshow(frame_rgb)
-    plt.axis('off')
+    plt.axis('on')
     plt.show()
     time.sleep(0.05)
 
 cap.release()
 ```
-<img width="671" height="449" alt="image" src="https://github.com/user-attachments/assets/092e37fc-c069-41d4-b6ca-b569bd6fcb22" />
-
+<img width="767" height="408" alt="image" src="https://github.com/user-attachments/assets/b5efd8ef-13f9-452d-920a-50d0cc687a2e" />
 
 
 ### iii) Display the video by resizing the window
@@ -107,14 +106,14 @@ for i in range(50):
     frame_rgb = cv2.cvtColor(resized_frame, cv2.COLOR_BGR2RGB)
     clear_output(wait=True)
     plt.imshow(frame_rgb)
-    plt.axis('off')
+    plt.axis('on')
     plt.show()
     time.sleep(0.05)
 
 cap.release()
 
 ```
-<img width="566" height="447" alt="image" src="https://github.com/user-attachments/assets/a324b45a-c383-4a64-9a1a-7d3abae085c9" />
+<img width="659" height="406" alt="image" src="https://github.com/user-attachments/assets/924abaad-7ce0-4949-b593-2b56fb13a5e9" />
 
 
 
@@ -130,13 +129,13 @@ for i in range(50):
     frame_rgb = cv2.cvtColor(rotated_frame, cv2.COLOR_BGR2RGB)
     clear_output(wait=True)
     plt.imshow(frame_rgb)
-    plt.axis('off')
+    plt.axis('on')
     plt.show()
     time.sleep(0.05)
 
 cap.release()
 ```
-<img width="631" height="431" alt="image" src="https://github.com/user-attachments/assets/b7821319-171d-408c-bda7-f93664057981" />
+<img width="751" height="416" alt="image" src="https://github.com/user-attachments/assets/10a79231-b752-4c5f-9c55-29a838a5c27e" />
 
 
 ## Result
