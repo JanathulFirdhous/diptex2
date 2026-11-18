@@ -70,7 +70,7 @@ plt.title('Captured Frame')
 plt.axis('on')
 plt.show()
 ```
-<img width="593" height="426" alt="image" src="https://github.com/user-attachments/assets/b38c7518-fe51-49b1-8b29-9243cac4feeb" />
+<img width="719" height="479" alt="image" src="https://github.com/user-attachments/assets/7e3897c4-b3bc-4845-81b6-7a83be5f0827" />
 
 
 
@@ -91,7 +91,7 @@ for i in range(50):
 
 cap.release()
 ```
-<img width="767" height="408" alt="image" src="https://github.com/user-attachments/assets/b5efd8ef-13f9-452d-920a-50d0cc687a2e" />
+<img width="665" height="482" alt="image" src="https://github.com/user-attachments/assets/7c8666fe-4b52-4fd2-9105-7d7a091c87ff" />
 
 
 ### iii) Display the video by resizing the window
@@ -106,16 +106,14 @@ for i in range(50):
     frame_rgb = cv2.cvtColor(resized_frame, cv2.COLOR_BGR2RGB)
     clear_output(wait=True)
     plt.imshow(frame_rgb)
-    plt.axis('on')
+    plt.axis('off')
     plt.show()
     time.sleep(0.05)
 
 cap.release()
 
 ```
-<img width="659" height="406" alt="image" src="https://github.com/user-attachments/assets/924abaad-7ce0-4949-b593-2b56fb13a5e9" />
-
-
+<img width="872" height="433" alt="image" src="https://github.com/user-attachments/assets/93c0ae96-47c8-4fc5-8c86-32173900b3d3" />
 
 ### iv) Rotate and display the video
 ```
@@ -129,13 +127,13 @@ for i in range(50):
     frame_rgb = cv2.cvtColor(rotated_frame, cv2.COLOR_BGR2RGB)
     clear_output(wait=True)
     plt.imshow(frame_rgb)
-    plt.axis('on')
+    plt.axis('off')
     plt.show()
     time.sleep(0.05)
 
 cap.release()
 ```
-<img width="751" height="416" alt="image" src="https://github.com/user-attachments/assets/10a79231-b752-4c5f-9c55-29a838a5c27e" />
+<img width="850" height="452" alt="image" src="https://github.com/user-attachments/assets/8b2ed40c-df25-4960-9075-820f6265021e" />
 
 
 ## Result
